@@ -27,4 +27,9 @@ end
 if (user==0 && computer==2)||(user==1 && computer==0) || (user==2 && computer==1)
   puts "Computador juega #{cpu_weapon}."
   puts "Ganaste."
-end 
+end
+
+if (user==0 && computer==1)||(user==1 && computer==2) || (user==2 && computer==0)
+  puts "Computador juega #{cpu_weapon}."
+  puts "Perdiste."
+end
